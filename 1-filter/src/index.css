@@ -1,0 +1,31 @@
+.headBar{
+  display: flex;  
+}
+
+.filter{
+  width: 15%;
+  margin: 0 auto;
+  border: 1px solid grey;
+  font-family: Arial, Helvetica, sans-serif;
+  padding: 5px 10px;
+  
+}
+
+.filter:hover{
+  cursor: pointer;
+}
+
+.portfolio{
+  display: flex;
+  flex-wrap: wrap;
+  width: 100%;
+  margin-left: 30px;
+  margin-top: 20px;
+  
+}
+
+.image{
+  padding: 5px 5px;
+}
+
+
