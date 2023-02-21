@@ -1,0 +1,128 @@
+.header{
+  display: flex;
+  height: 30px;
+}
+
+.icon{
+  margin-top: 5px;
+  margin-right: 100px !important;
+}
+
+.icon:hover{
+  cursor: pointer;
+}
+
+.Cards{
+  margin-left: 70px;
+  width: 1400px;
+  display: flex;
+  flex-wrap: wrap;
+}
+
+.card{
+  text-align: center;
+  background-color: rgb(247, 246, 245);
+  height: 350px;
+  margin-left: 120px;
+  margin-top: 80px;
+  box-shadow: -2px 12px 15px 1px rgba(0, 0, 255, .2);
+}
+
+.color{
+  margin-top: 15px;
+}
+
+.name{
+  font-size: 22px;
+  margin-top: 20px;
+}
+
+.price{
+  margin-left: 25px;
+  font-size: 1.5rem;
+}
+
+.add_card{
+  border: 1px solid;
+  padding: 5px;
+  margin-left: 45px;
+  border-radius: 15px;
+  font-size: 1rem;
+}
+
+.add_card:hover{
+  cursor: pointer;
+}
+
+.add_card:active{
+  background-color: red;
+}
+
+.footer{
+  color: red;
+  display: flex;
+}
+
+.img{
+  width: 250px !important;
+  height: 250px;
+  display: flex;
+}
+
+.row{
+  background-color: rgba(238, 237, 237, 0.479);
+  display: flex;
+  margin-top: 10px;
+  margin-left: 20px;
+}
+
+.cell-img{
+  width: 150px !important;
+}
+
+.cell-name{
+  flex: 0 0 200px;
+  font-size: 24px;
+  margin-left: 50px;
+  display: flex;
+  align-items: center;
+  text-transform: uppercase;
+}
+
+.cell-color{
+  margin-top: 59px;
+  margin-left: 270px;
+  color: grey;
+}
+
+.cell-price{
+  font-size: 1.5rem;
+  flex: 0 0 200px;
+  font-size: 24px;
+  margin-left: 50px;
+  display: flex;
+  align-items: center;
+  color: red;
+}
+
+.cell-add_card{
+  flex: 0 0 180px;
+  font-size: 24px;
+  margin-left: 5px;
+  display: flex;
+  align-items: center;
+  color: red;
+  border: 1px solid red;
+  height: 20px;
+  padding: 10px;
+  border-radius: 20px;
+  margin-top: 55px
+}
+
+.cell-add_card:hover{
+  cursor: pointer;
+}
+
+.cell-add_card:active{
+  background-color: brown;
+}
